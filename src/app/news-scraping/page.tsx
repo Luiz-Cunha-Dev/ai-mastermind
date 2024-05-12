@@ -29,6 +29,7 @@ export default function NewsScraping() {
       setResult(response);
       setButton(false);
     } catch (error) {
+      alert("There was an error fetching the news. Try again.");
       console.error("There was an error fetching the news. Try again.", error);
       setButton(false);
     }

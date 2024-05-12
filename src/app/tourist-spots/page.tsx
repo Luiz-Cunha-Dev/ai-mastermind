@@ -32,6 +32,7 @@ export default function TouristSpots() {
       setResult(response);
       setButton(false);
     } catch (error) {
+      alert("There was an error fetching the tourist spots. Try again.");
       console.error("There was an error fetching the tourist spots. Try again.", error);
       setButton(false);
     }

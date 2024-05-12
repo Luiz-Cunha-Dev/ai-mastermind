@@ -46,6 +46,7 @@ export default function FacialExpressionAnalysis() {
         setResult(result);
         setButton(false);
       } catch (error) {
+        alert("There was an error analyzing the image. Try again.");
         console.error(error);
         setButton(false);
       }

@@ -49,7 +49,8 @@ export default function CreateWebsite() {
 
       setButton(false);
     } catch (error) {
-      console.error("Houve um erro ao criar o site. Tente novamente.", error);
+      alert("There was an error creating the website. Try again.");
+      console.error("There was an error creating the website. Try again.", error);
       setButton(false);
     }
   }
