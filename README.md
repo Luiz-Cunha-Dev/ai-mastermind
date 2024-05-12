@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Mastermind
 
-## Getting Started
+Este projeto AI-Mastermind é uma aplicação Next.js que oferece quatro funcionalidades distintas:
 
-First, run the development server:
+1. **Criação de Site Básico sobre Qualquer Tema e Assunto**: Gera os arquivos necessários para criar um site básico sobre qualquer tema e assunto.
+2. **Análise de Imagens**: Analisa imagens e retorna informações como quantidade de pessoas, quantidade de homens e mulheres, idade estimada de cada pessoa e expressão facial de cada uma.
+3. **Exploração de Pontos Turísticos**: Recebe um local no mundo como entrada e retorna os principais pontos turísticos desse local, juntamente com um resumo e link para o local no Google Maps.
+4. **Busca de Notícias**: Realiza uma busca pelas últimas notícias de um determinado tema, retornando uma lista de notícias com resumo e link para cada uma.
+
+## Requisitos
+
+Antes de rodar o projeto, é necessário ter o seguinte instalado:
+
+- Node.js (v14.0.0 ou superior)
+- npm (v6.14.0 ou superior) ou Yarn (v1.22.0 ou superior)
+
+## Configuração do Arquivo .env
+
+Para que a funcionalidade de análise de imagens funcione corretamente, é necessário configurar a chave da API do Gemini. Adicione a seguinte linha ao seu arquivo `.env`:
+
+NEXT_PUBLIC_API_KEY=SuaChaveDoGeminiAqui
+
+Certifique-se de substituir `SuaChaveDoGeminiAqui` pela sua chave de API do Gemini.
+
+## Como Rodar
+
+Após clonar o repositório, navegue até a pasta raiz do projeto e execute os seguintes comandos no terminal:
+
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Isso iniciará o servidor de desenvolvimento do Next.js. Você pode acessar a aplicação em http://localhost:3000 no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Links
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **GitHub:** [NomeDoRepositório](https://github.com/Luiz-Cunha-Dev/ai-mastermind)
+- **Perfil do GitHub:** [seu-usuario](https://github.com/Luiz-Cunha-Dev)
+- **Perfil do LinkedIn:** [Seu Nome](https://www.linkedin.com/in/luizmcunha/)
