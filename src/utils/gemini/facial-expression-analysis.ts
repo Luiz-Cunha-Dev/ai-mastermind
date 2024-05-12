@@ -51,6 +51,6 @@ const prompt = `Given an image of a person, identify the number of people in the
     return textJsonParsed;
     
   } catch (error) {
-    console.error(error);
+    throw error;
   }
 }

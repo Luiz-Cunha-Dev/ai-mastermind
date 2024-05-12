@@ -45,7 +45,7 @@ export async function createWebsite(prompt: string) {
 
         return textJsonParsed;
     } catch (error) {
-        console.error(error);
+        throw error;
     }
 }
 

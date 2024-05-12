@@ -59,7 +59,7 @@ ${city ? `City: ${city}` : ''}`;
         return updatedSpots;
 
     } catch (error) {
-        console.error(error);
+        throw error;
     }
 }
 

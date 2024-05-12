@@ -118,7 +118,7 @@ export async function getSummaryOfNews(theme: string) {
         return updatedNews;
 
     } catch (error) {
-        console.error(`Failed to get news for ${theme}: ${error}`);
+        throw error;
     }
 }
 
