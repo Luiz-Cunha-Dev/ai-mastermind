@@ -80,5 +80,14 @@ const Container = styled.div`
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    max-height: 740px;
+    width: 1580px;
+    overflow-y: auto;
+    //alterar a barra de rolagem
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f5f5f5;
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
   }
 `;
