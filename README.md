@@ -1,50 +1,60 @@
 # AI-Mastermind
 
-Este projeto AI-Mastermind é uma aplicação Next.js que oferece quatro funcionalidades distintas:
+This AI-Mastermind project is a Next.js application that offers four distinct functionalities:
 
-1. **Criação de Site Básico sobre Qualquer Tema e Assunto**: Gera os arquivos necessários para criar um site básico sobre qualquer tema e assunto.
-2. **Análise de Imagens**: Analisa imagens e retorna informações como quantidade de pessoas, quantidade de homens e mulheres, idade estimada de cada pessoa e expressão facial de cada uma.
-3. **Exploração de Pontos Turísticos**: Recebe um local no mundo como entrada e retorna os principais pontos turísticos desse local, juntamente com um resumo e link para o local no Google Maps.
-4. **Busca de Notícias**: Realiza uma busca pelas últimas notícias de um determinado tema, retornando uma lista de notícias com resumo e link para cada uma.
+1. **Creation of Basic Website on Any Theme and Subject**: Generates the necessary files to create a basic website on any theme and subject.
 
-## Requisitos
+![Create Website](src/assets/readme/image1.png)
 
-Antes de rodar o projeto, é necessário ter o seguinte instalado:
+2. **Image Analysis**: Analyzes images and returns information such as the number of people, the number of men and women, estimated age of each person, and facial expression of each.
 
-- Node.js (v14.0.0 ou superior)
-- npm (v6.14.0 ou superior) ou Yarn (v1.22.0 ou superior)
+![Facial Expression Analysis](src/assets/readme/image2.png)
 
-## Configuração do Arquivo .env
+3. **Tourist Spot Exploration**: Takes a location in the world as input and returns the main tourist spots of that location, along with a summary and a link to the location on Google Maps.
 
-Para que a funcionalidade de análise de imagens funcione corretamente, é necessário configurar a chave da API do Gemini. Adicione a seguinte linha ao seu arquivo `.env`:
+![Tourist Spots](src/assets/readme/image3.png)
 
-NEXT_PUBLIC_API_KEY=SuaChaveDoGeminiAqui
+4. **News Search**: Conducts a search for the latest news on a particular topic, returning a list of news items with a summary and a link to each one.
 
-Certifique-se de substituir `SuaChaveDoGeminiAqui` pela sua chave de API do Gemini.
+![News Scraping](src/assets/readme/image4.png)
 
-## Como Rodar
+## Requirements
 
-Após clonar o repositório, navegue até a pasta raiz do projeto e execute os seguintes comandos no terminal:
+Before running the project, you need to have the following installed:
 
+- Node.js (v14.0.0 or higher)
+- npm (v6.14.0 or higher) or Yarn (v1.22.0 or higher)
+
+## .env File Configuration
+
+To ensure the image analysis functionality works correctly, you need to set up the Gemini API key. Add the following line to your `.env` file:
+
+NEXT_PUBLIC_API_KEY=YourGeminiKeyHere
+
+Make sure to replace `YourGeminiKeyHere` with your Gemini API key.
+
+## How to Run
+
+After cloning the repository, navigate to the project's root folder and execute the following commands in the terminal:
 
 ```bash
 npm install
-# ou
+# or
 yarn install
 ```
 
-Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento com o seguinte comando:
+After installing the dependencies, you can start the development server with the following command:
 
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-Isso iniciará o servidor de desenvolvimento do Next.js. Você pode acessar a aplicação em http://localhost:3000 no seu navegador para ver o resultado.
+This will start the Next.js development server. You can access the application at http://localhost:3000 in your browser to see the result.
 
 ## Links
 
-- **GitHub:** [NomeDoRepositório](https://github.com/Luiz-Cunha-Dev/ai-mastermind)
-- **Perfil do GitHub:** [seu-usuario](https://github.com/Luiz-Cunha-Dev)
-- **Perfil do LinkedIn:** [Seu Nome](https://www.linkedin.com/in/luizmcunha/)
+- **GitHub:** [AI-Mastermind](https://github.com/Luiz-Cunha-Dev/ai-mastermind)
+- **Perfil do GitHub:** [Luiz-Cunha-Dev](https://github.com/Luiz-Cunha-Dev)
+- **Perfil do LinkedIn:** [Luiz Miguel da Cunha](https://www.linkedin.com/in/luizmcunha/)

@@ -87,6 +87,11 @@ async function getContentOfNews(theme: string) {
 export async function getSummaryOfNews(theme: string) {
     try {
         const news = await getContentOfNews(theme);
+
+        if (news.length > 6) {
+            news.splice(6, news.length - 6);
+        }
+        
         const model = genAI.getGenerativeModel({
             model: 'gemini-pro',
         });
